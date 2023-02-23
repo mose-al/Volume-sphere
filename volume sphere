@@ -1,0 +1,5 @@
+#Function to find volume of a sphere
+def volume_sphere(pie,radius):
+    volume=(4/3)*pie*radius*radius*radius
+    print("volume of sphere is",volume)
+volume_sphere(3.142,10)    
